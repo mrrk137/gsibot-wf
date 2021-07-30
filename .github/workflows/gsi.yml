@@ -22,7 +22,7 @@ jobs:
 
        
        - name: Clone ErfanGSIs
-         run: git clone --recurse-submodules https://github.com/mrrk137/Erfan ErfanGSIs
+         run: git clone --recurse-submodules https://github.com/rahulkhatri137/Erfan ErfanGSIs
        
        - name: Setup
          run: |
