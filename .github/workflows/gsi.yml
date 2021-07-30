@@ -35,8 +35,8 @@ jobs:
        
        - name: XZip
          run: |
-              sudo ./ErfanGSIs/reimage.sh Generic:Havoc-test
-              cd ErfanGSIs/working ; ls ; cd .. ; cd output ;
+              sudo ./ErfanGSIs/reimg.sh
+              cd output
               ls
 
        - name: Upload 
